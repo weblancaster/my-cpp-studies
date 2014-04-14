@@ -19,32 +19,29 @@ string temperature;
 double value;
 double result;
 
-int showResult() {
+void showResult(void) {
     cout << endl;
     cout << "The temperature is " << result << " " << temperature << endl;
     
     cout << endl;
-    return 0;
 }
 
-int CelsiusToFahrenheit(double c) {
+void CelsiusToFahrenheit(double c) {
     cout << "Converting Celsius to Fahrenheit..." << endl;
     
-    result = (c * 9) / (5 + 32);
+    result = (((c * 9.0) / 5.0) + 32);
     showResult();
     
     cout << endl;
-    return 0;
 }
 
-int FahrenheitToCelsius(double f) {
+void FahrenheitToCelsius(double f) {
     cout << "Converting Fahrenheit to Celsius..." << endl;
     
-    result = (f - 32) * (5 / 9);
+    result = ((f - 32) * 5.0) / 9.0;
     showResult();
     
     cout << endl;
-    return 0;
 }
 
 int main() {
@@ -68,5 +65,5 @@ int main() {
         CelsiusToFahrenheit(value);
     }
     
-    return 0;
+    system("pause");
 }
