@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  FahrenheitToCelsius
+//  TemperatureConverter
 //
 //  Created by Michael Lancaster on 4/11/14.
 //  Copyright (c) 2014 michael Lancaster. All rights reserved.
