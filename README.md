@@ -1,4 +1,4 @@
-my-cpp-studies
+My C++ studies
 ==============
 
-Starting my studies in C++
+With the quote "first do it, then do it right, then do it better" I'm applying to my studies in C++.

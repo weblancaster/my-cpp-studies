@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C8FD8640-1D7D-4249-8DA5-1B14DEAC24A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TemperatureConverter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2AF703D-84D5-4DB7-BAB8-32F504109FC8</key>
+		<string>https://github.com/weblancaster/my-cpp-studies.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TemperatureConverter/TemperatureConverter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2AF703D-84D5-4DB7-BAB8-32F504109FC8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/weblancaster/my-cpp-studies.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2AF703D-84D5-4DB7-BAB8-32F504109FC8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2AF703D-84D5-4DB7-BAB8-32F504109FC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>my-cpp-studies</string>
+		</dict>
+	</array>
+</dict>
+</plist>
