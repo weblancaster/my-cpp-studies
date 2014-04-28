@@ -14,56 +14,69 @@
 // require to use standard stuff from C++
 using namespace std;
 
-// variables
-string temperature;
-double value;
-double result;
+class TemperatureConverter {
 
-void showResult(void) {
-    cout << endl;
-    cout << "The temperature is " << result << " " << temperature << endl;
+    private:
+        // variables
+        string temperature;
+        double value;
+        double result;
     
-    cout << endl;
-}
-
-void CelsiusToFahrenheit(double c) {
-    cout << "Converting Celsius to Fahrenheit..." << endl;
+        void showResult(void) {
+            cout << endl;
+            cout << "The temperature is " << result << " " << temperature << endl;
+        
+            cout << endl;
+        }
     
-    result = (((c * 9.0) / 5.0) + 32);
-    showResult();
+        void CelsiusToFahrenheit(double c) {
+            cout << "Converting Celsius to Fahrenheit..." << endl;
+        
+            result = (((c * 9.0) / 5.0) + 32);
+            showResult();
+        
+            cout << endl;
+        }
     
-    cout << endl;
-}
-
-void FahrenheitToCelsius(double f) {
-    cout << "Converting Fahrenheit to Celsius..." << endl;
+        void FahrenheitToCelsius(double f) {
+            cout << "Converting Fahrenheit to Celsius..." << endl;
+        
+            result = ((f - 32) * 5.0) / 9.0;
+            showResult();
+        
+            cout << endl;
+        }
     
-    result = ((f - 32) * 5.0) / 9.0;
-    showResult();
+    public:
     
-    cout << endl;
-}
+        void init(void) {
+            cout << "What would you like to know? Celsius or Fahrenheit" << endl;
+            cin >> temperature;
+            cout << endl;
+            
+            if ( temperature == "fahrenheit" || temperature == "Fahrenheit" ) {
+                cout << "What is the temperature in Celsius?" << endl;
+            } else if ( temperature == "celsius" || temperature == "Celsius" ) {
+                cout << "What is the temperature in Fahrenheit?" << endl;
+            }
+            
+            cin >> value;
+            cout << endl;
+            
+            if ( temperature == "fahrenheit" || temperature == "Fahrenheit" ) {
+                FahrenheitToCelsius(value);
+            } else if ( temperature == "celsius" || temperature == "Celsius" ) {
+                CelsiusToFahrenheit(value);
+            }
+        }
+    
+};
 
 int main() {
     
-    cout << "What would you like to know? Celsius or Fahrenheit" << endl;
-    cin >> temperature;
-    cout << endl;
-    
-    if ( temperature == "fahrenheit" || temperature == "Fahrenheit" ) {
-        cout << "What is the temperature in Celsius?" << endl;
-    } else if ( temperature == "celsius" || temperature == "Celsius" ) {
-        cout << "What is the temperature in Fahrenheit?" << endl;
-    }
-    
-    cin >> value;
-    cout << endl;
-    
-    if ( temperature == "fahrenheit" || temperature == "Fahrenheit" ) {
-        FahrenheitToCelsius(value);
-    } else if ( temperature == "celsius" || temperature == "Celsius" ) {
-        CelsiusToFahrenheit(value);
-    }
+    TemperatureConverter objTemperatureConverter;
+    objTemperatureConverter.init();
     
     system("pause");
+    return 0;
 }
