@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	33B32C91190ED14D003BA21F /* TemperatureConverter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TemperatureConverter;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	33B32C9A190ED163003BA21F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	33B32C9B190ED163003BA21F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D712E3C318F89D11006192DA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 33B32C91190ED14D003BA21F /* TemperatureConverter */;
+		activeTarget = D712E3CA18F89D11006192DA /* TemperatureConverter */;
+		codeSenseManager = 33B32C9B190ED163003BA21F /* Code sense */;
+		executables = (
+			33B32C91190ED14D003BA21F /* TemperatureConverter */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 420401485;
+			PBXWorkspaceStateSaveDate = 420401485;
+		};
+		sourceControlManager = 33B32C9A190ED163003BA21F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D712E3CA18F89D11006192DA /* TemperatureConverter */ = {
+		activeExec = 0;
+		executables = (
+			33B32C91190ED14D003BA21F /* TemperatureConverter */,
+		);
+	};
+}

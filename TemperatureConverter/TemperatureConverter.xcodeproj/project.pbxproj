@@ -227,6 +227,7 @@
 				D712E3D618F89D11006192DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
